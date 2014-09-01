@@ -1,0 +1,16 @@
+usage:
+    make clean
+    make server
+    make client
+
+    ./server
+
+    ./client host port(8888) filename
+    1 客户端程序输入传输文件， enter
+    2 客户端程序输入断点位置， enter
+
+注：
+    server为文件发送端
+    client为文件接收端
+    client接收到的文件写入当前目录下与录入的文件同名的文件内。
+    server默认端口号为8888,再heads.h内可修改
